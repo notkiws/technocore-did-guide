@@ -1,3 +1,11 @@
 .venv/
 __pycache__/
 *.py[cod]
+
+# secrets: never commit an identity, wallet or API key
+identity.pem
+*.pem
+.env
+.flop/
+*wallet*.json
+*credential*.json
